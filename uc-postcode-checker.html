@@ -50,7 +50,26 @@
 <meta name="description" content="Getting help with tax returns, allowances, tax codes, filling in forms and what to do if you owe HMRC">
 <meta name="govuk:content-id" content="91fef6f6-3a59-42ab-a14d-42c4e5eee1a1">
 <!--[if IE 6]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/government-frontend/application-ie6-444669b57580adba34d3764e115739d9b26bfc3357b8a3a04c005be7ff9f4235.css" /><script>var ieVersion = 6;</script><![endif]--><!--[if IE 7]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/government-frontend/application-ie7-ed7ead23da7360a09e1676bd6891f8a4ecb1fea35ad953c4053fbc701f4b7370.css" /><script>var ieVersion = 7;</script><![endif]--><!--[if IE 8]><link rel="stylesheet" media="screen" href="https://assets.publishing.service.gov.uk/government-frontend/application-ie8-f1646cc2e467897235115c6dabf46d457de850bc456a7a696af34e7d4e9581dc.css" /><script>var ieVersion = 8;</script><![endif]--><meta name="govuk:rendering-application" content="government-frontend">
-</head>
+
+  
+  <style>
+p.toggle {
+	color:#4c2c92;
+	text-decoration:underline;
+}
+
+p.toggle:hover {
+    color:#2b8cc4;
+}
+
+p.toggle:focus {
+    background-color: #ffbf47;
+    outline: 3px solid #ffbf47;
+}
+</style>
+  
+  
+  </head>
 
   <body>
     <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
@@ -129,7 +148,7 @@
 <p>The live div is revealed!</p>
 </div>
 
-<p id = 'full-button' style = 'display:inline-block'
+<p class = "toggle" id = 'full-button' style = 'display:inline-block'
 onclick = 
 "var x = document.getElementById('full')
 var y = document.getElementById('live-button')
@@ -141,7 +160,7 @@ if (x.style.display === 'none') {
     y.style.display = 'inline-block'
     }">Full service</p>
 
-<button id = 'live-button' type = "button" style = 'display:inline-block'
+<p class = "toggle" id = 'live-button' style = 'display:inline-block'
 onclick = 
 "var x = document.getElementById('live')
 var y = document.getElementById('full-button')
@@ -151,7 +170,7 @@ if (x.style.display === 'none') {
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
-    }">Live service</button>
+    }">Live service</p>
   
   <p>End</p>
   
