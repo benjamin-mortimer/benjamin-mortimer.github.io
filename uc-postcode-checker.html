@@ -145,15 +145,17 @@ onclick =
 "var x = document.getElementById('full')
 var y = document.getElementById('live-button')
 var z = document.getElementById('question')
+var a = document.getElementById('full-button')
 if (x.style.display === 'none') {
     x.style.display = 'block'
     y.style.display = 'none'
     z.style.display = 'none'
-    document.getElementById('full-button').innerHTML = 'SW1 1AA - change'
+    a.innerHTML = 'Your postcode is SW1 1AA - change'
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
     z.style.display = 'block'
+    a.innerHTML = 'SW1 1AA'
     }">SW1 1AA</p>
 
 <p class = "toggle" id = 'live-button' style = 'display:inline-block'
