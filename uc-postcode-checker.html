@@ -120,7 +120,6 @@
 
   <p>Start</p>
   
-
 <div id = 'full' style = "display:none">
 <p>The full div is revealed!</p>
 </div>
@@ -130,10 +129,18 @@
 </div>
 
 <button type = "button"
-onclick = "document.getElementById('full').style.display = 'block'">Full service</button>
+onclick = 
+
+"var x = document.getElementById('full')
+if (x.style.display === 'none') {
+    x.style.display = 'block'
+    } else {
+    x.style.display = 'none'
+    }">Full service</button>
 
 <button type = "button"
-onclick = "document.getElementById('live').style.display = 'block'">Live service</button>  
+onclick = "document.getElementById('live').style.display = 'block'">Live service</button>
+  
   <p>End</p>
   
   
