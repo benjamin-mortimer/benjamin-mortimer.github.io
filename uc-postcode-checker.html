@@ -111,12 +111,39 @@
   <div role="note" aria-label="Help" class="application-notice help-notice">
     <p>This isn't GOV.UK - it's just a prototype. <a href = "https://www.gov.uk" title = "GOV.UK - the best place to find government services and information.">Visit GOV.UK</a>.</p>
   </div>
-<h2>What Can JavaScript Do?</h2>
+  
+<p>Universal Credit is a monthly payment that replaces some other benefits.</p>
 
-<p id="demo">JavaScript can change HTML content.</p>
+<p>You may be able to claim Universal Credit if you’re on a low income or out of work.</p>
+
+<p>How much you’ll get depends on your circumstances, including your income and how many children you have.</p>
+
+<h2>'Full' service and 'Live' service</h2>
+
+<p id="content">Click the button and this page will tell you you live in a full service area</p>
+
+
+<button type="button" onclick='document.getElementById("content").innerHTML = "You live in a full service area."'>Go full!</button>
+
+
+
+Full text
+
+<div id="full">
+<h2>You're in a full service area</h2>
+<p>You'll need to create an online account and keep an online journal.</p>
+</div>
+
+
+Live text
+
+<div id="live">
+<h2>You're in a live service area</h2>
+<p>You need to use a different online service to claim.</p>
+</div>
+
 
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
-
 </div>
 
 
