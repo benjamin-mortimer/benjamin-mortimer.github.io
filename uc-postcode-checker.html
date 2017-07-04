@@ -60,6 +60,7 @@ p.toggle {
 
 p.toggle:hover {
     color:#2b8cc4;
+    cursor: auto
 }
 
 p.toggle:focus {
@@ -157,11 +158,9 @@ var y = document.getElementById('live-button')
 if (x.style.display === 'none') {
     x.style.display = 'block'
     y.style.display = 'none'
-    this.innerHTML = "Undo"
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
-    this.innerHTML = "Full service"
     }">Full service</p>
 
 <p class = "toggle" id = 'live-button' style = 'display:inline-block'
@@ -171,7 +170,6 @@ var y = document.getElementById('full-button')
 if (x.style.display === 'none') {
     x.style.display = 'block'
     y.style.display = 'none'
-    this.innerHTML = "Undo"
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
