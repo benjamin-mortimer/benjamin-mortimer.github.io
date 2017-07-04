@@ -152,17 +152,16 @@ p.toggle:focus {
 onclick = 
 "var x = document.getElementById('full')
 var y = document.getElementById('live-button')
-var z = document.getElementById('full-button')
 
 
 if (x.style.display === 'none') {
     x.style.display = 'block'
     y.style.display = 'none'
-    z.innerHTML = "Undo"
+    this.innerHTML = "Undo"
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
-    z.innerHTML = "Full service"
+    this.innerHTML = "Full service"
     }">Full service</p>
 
 <p class = "toggle" id = 'live-button' style = 'display:inline-block'
