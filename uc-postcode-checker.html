@@ -150,7 +150,7 @@ if (x.style.display === 'none') {
     x.style.display = 'block'
     y.style.display = 'none'
     z.style.display = 'none'
-    a.innerHTML = 'Your postcode is SW1 1AA - change'
+    a.innerHTML = 'Choose a different postcode'
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
@@ -163,14 +163,17 @@ onclick =
 "var x = document.getElementById('live')
 var y = document.getElementById('full-button')
 var z = document.getElementById('question')
+var a = document.getElementById('live-button')
 if (x.style.display === 'none') {
     x.style.display = 'block'
     y.style.display = 'none'
     z.style.display = 'none'
+    a.innerHTML = 'Choose a different postcode'
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
     z.style.display = 'block'
+    a.innerHTML = 'CC2 3AH'
     }">CC2 3AH</p>
 
 <div id = 'full' style = "display:none">
