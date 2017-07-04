@@ -128,18 +128,27 @@
 <p>The live div is revealed!</p>
 </div>
 
-<button type = "button"
+<button id = 'full-button' type = "button" style = 'display:inline-block'
 onclick = 
-
 "var x = document.getElementById('full')
+var y = document.getElementById('live-button')
 if (x.style.display === 'none') {
     x.style.display = 'block'
+    y.style.display = 'none'
     } else {
     x.style.display = 'none'
     }">Full service</button>
 
-<button type = "button"
-onclick = "document.getElementById('live').style.display = 'block'">Live service</button>
+<button id = 'live-button' type = "button" style = 'display:inline-block'
+onclick = 
+"var x = document.getElementById('live')
+var y = document.getElementById('full-button')
+if (x.style.display === 'none') {
+    x.style.display = 'block'
+    y.style.display = 'none'
+    } else {
+    x.style.display = 'none'
+    }">Live service</button>
   
   <p>End</p>
   
