@@ -136,37 +136,44 @@ p.toggle:focus {
   <div role="note" aria-label="Help" class="application-notice help-notice">
     <p>This isn't GOV.UK - it's just a prototype. <a href = "https://www.gov.uk" title = "GOV.UK - the best place to find government services and information.">Visit GOV.UK</a>.</p>
   </div>
-  <p>Universal Credit is a monthly payment that replaces some other benefits.</p>
+<p>Universal Credit is a monthly payment that replaces some other benefits.</p>
 
-<p>You may be able to claim Universal Credit if you’re on a low income or out of work.</p>
+<p>You’ll get Universal Credit in a different way depending on whether you’re in a ‘full service’ area or a ‘live service’ area.</p>
 
-<p>How much you’ll get depends on your circumstances, including your income and how many children you have.</p>
-
-
-  <p>Start</p>
-  
+<strong>What’s your postcode?</strong>
 
 <div id = 'full' style = "display:none">
-<p>The full div is revealed!</p>
+<h2>You’re in a full service area</h2>
+<p>You’ll need to:</p>
+<ul>
+  <li>set up an online account</li>
+  <li>prove your identity online</li>
+  <li>report changes through your ‘journal’</li>
+</ul>
+<h2>How much you’ll get</h2>
+<p>The amount of Universal Credit you can get depends on your circumstances, including your income and how many children you have.</p>
+<p>Your Universal Credit payment is made up of a basic ‘standard allowance’ and any extra amounts that apply to you.</p>
 </div>
 
 <div id = 'live' style = "display:none">
-<p>The live div is revealed!</p>
+<h2>You’re in a live service area</h2>
+<p>You’ll need to claim Universal Credit in person at a Jobcentre.
+<h2>How much you’ll get</h2>
+<p>Your Universal Credit payment is made up of a basic ‘standard allowance’ and any extra amounts that apply to you.</p>
+<p>You may get more money on top of your standard allowance if you’re eligible.</p>
 </div>
 
 <p class = "toggle" id = 'full-button' style = 'display:inline-block'
 onclick = 
 "var x = document.getElementById('full')
 var y = document.getElementById('live-button')
-
-
 if (x.style.display === 'none') {
     x.style.display = 'block'
     y.style.display = 'none'
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
-    }">Full service</p>
+    }">SW1 1AA</p>
 
 <p class = "toggle" id = 'live-button' style = 'display:inline-block'
 onclick = 
@@ -178,28 +185,9 @@ if (x.style.display === 'none') {
     } else {
     x.style.display = 'none'
     y.style.display = 'inline-block'
-    }">Live service</p>
-  
-  <p>End</p>
-  
-  
-  
-  
-  
-  <h2>'Full' service and 'Live' service</h2>
+    }">CC2 3AH</p>
 
-Universal Credit works differently depending on where you live. 
-
-</strong>Where do you live?</strong>
-
-<p id="empty-full">...</p>
-<p id="empty-live">...</p>
-
-
-<button type="button" onclick='document.getElementById("empty-full").innerHTML = "You're in a full service area."'>I live in a full service area</button>
-
-
-</div>
+	  </div>
 
 
   </div>
