@@ -1,0 +1,19 @@
+      <div id="postcode-prompt">
+      <p>What's your postcode?</p>
+      <input id="postcode-field" type="text" value="Enter your postcode" onchange="postcodeLookup(this.value)">
+      </div>
+
+      <p id="response" class="hideable"></p>
+
+      <p id="reset-button" class="button hideable" onclick="resetPostcodeField()">
+      Enter a different postcode</p>
+
+      <div id="live-service-content" class="hideable">
+      <h2>Live service content</h2>
+      <p>Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis.</p>
+      </div>
+
+      <div id="full-service-content" class="hideable">
+      <h2>Full service content</h2>
+      <p>Integer gravida tempor metus eget condimentum. Integer eget iaculis tortor. Nunc sed ligula sed augue rutrum ultrices eget nec odio. Morbi rhoncus, sem laoreet tempus pulvinar, leo diam varius nisi, sed accumsan ligula urna sed felis.</p>
+      </div>
