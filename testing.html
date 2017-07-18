@@ -1,10 +1,15 @@
 <html>
-<head>
-<title>Testing</title>
-</head>
-<body>
-<h2>JS button and hideable paragraph</h2>
-<p id="x">This paragraph will be hidden</p>
-<p onclick="{getElementById('x').style.display = 'none'}">Click to make paragraph x disappear</p>
-</body>
+  <head>
+    <title>Testing</title>
+    <script>
+      function makeParagraphInvisible(paragraph_id) {
+      getElementById(paragraph_id).style.display='none'
+    }
+    </script>
+  </head>
+  <body>
+    <h2>JS button and hideable paragraph</h2>
+    <p id="x">This paragraph will be hidden</p>
+    <p onclick="makeParagraphInvisible('x')">Click to make paragraph x disappear</p>
+  </body>
 </html>
