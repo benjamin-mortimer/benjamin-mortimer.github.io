@@ -14,7 +14,7 @@ body {
   }
 }
 
-@media (width: 900px) {
+@media (width: 600px) {
   .two-thirds {
     width: 60%;
   }
