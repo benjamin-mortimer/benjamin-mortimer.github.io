@@ -48,8 +48,9 @@ a :visited {
 }
 
 input[type=text] {
-   width : 150px;
+   width : 250px;
    margin: 0;
+   padding: 2px;
    font-size: 16pt;
    font-family: inherit;
    border: 1px solid black;
