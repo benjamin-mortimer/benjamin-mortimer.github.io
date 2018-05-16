@@ -48,6 +48,8 @@ nav {
 }
 
 input[type=search] {
+   width : 150px;
+   margin: 0;
    font-size: 16pt;
    font-family: inherit;
    border: 1px solid black;
