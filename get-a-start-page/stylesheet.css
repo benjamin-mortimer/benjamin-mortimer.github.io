@@ -39,7 +39,7 @@ nav {
   padding: 1em;
 }
 
-a :visited {
+a:visited {
    text-decoration: none;
    color: white;
 }
@@ -57,7 +57,7 @@ input[type=text] {
    border: 1px solid black;
 }
 
-input :focus {
+input:focus {
    border: 2px solid yellow;
 }
 
