@@ -6,7 +6,7 @@ body {
  }
 
 
-@media (width: 400px) {
+@media (max-width: 400px) {
   .two-thirds {
     max-width: 90%;
   }
@@ -15,7 +15,7 @@ body {
   } 
 }
 
-@media (width: 600px) {    
+@media (min-width: 600px) {    
   .two-thirds {
   width: 60%;
   float: left;
