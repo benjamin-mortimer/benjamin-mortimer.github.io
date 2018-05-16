@@ -39,7 +39,7 @@ nav {
   padding: 1em;
 }
 
-a:visited {
+.start-button a:visited {
    text-decoration: none;
    color: white;
 }
