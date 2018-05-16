@@ -34,7 +34,7 @@ nav {
 .start-button {
   display: inline-block;
   color: white;
-  background-color: blue;
+  background-color: green;
   padding: 1em;
 }
 
@@ -42,4 +42,7 @@ nav {
    color: white;
 }
 
+.start-button :focus {
+   border: 2px solid yellow;
+}
 
