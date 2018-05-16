@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title>Get a start page</title>
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css">
+  </head>
+  
+  <body>
+    
+    <nav>
+      <p>
+      <strong>This isn't GOV.UK - <a href="https://www.gov.uk" title="GOV.UK - the best place to find government services and information">go to GOV.UK</a></strong>
+      </p>
+    </nav>
+    
+    <div class="two-thirds">
+
+      <form>
+
+        <h1>
+          <label for="service-name">What is your service called?</label>
+        </h1>
+        
+        <input type="text" id="service-name">      
+
+      </form>
+      
+      <p>Continue</p>
+      
+    </div>
+      
+  </body>
+  
+</html>
