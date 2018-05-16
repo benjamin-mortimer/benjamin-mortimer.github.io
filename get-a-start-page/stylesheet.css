@@ -47,3 +47,14 @@ nav {
    border: 2px solid yellow;
 }
 
+input[type=search] {
+   font-size: 16pt;
+   font-family: inherit;
+   border: 1px solid black;
+}
+
+input :focus {
+   border: 2px solid yellow;
+}
+
+
