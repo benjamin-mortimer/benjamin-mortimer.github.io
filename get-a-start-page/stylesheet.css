@@ -1,29 +1,35 @@
-body {
-  width: 90%;
-  max-width: 900px;
-  margin: 0 auto;
-  font-family: "Arial", sans-serif;
-}
-
 @media (width: 400px) {
-  .two-thirds {
-    width: 90%;
-  }
-  .one-third {
-    width: 90%
-  }
+    body {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+      font-family: "Arial", sans-serif;
+    }
+    .two-thirds {
+      width: 90%;
+    }
+    .one-third {
+      width: 90%
+    } 
 }
 
 @media (width: 600px) {
-  .two-thirds {
-    width: 60%;
-  }
-  .one-third {
-    width: 34%;
-  }
+    body {
+      width: 90%;
+      max-width: 900px;
+      margin: 0 auto;
+      font-family: "Arial", sans-serif;
+    }
+    .two-thirds {
+      width: 60%;
+    }
+    .one-third {
+      width: 34%;
+    }
 }
 
 .start-button {
+  display: block;
   color: white;
   background-color: green;
   padding: 1em;
