@@ -30,7 +30,7 @@ nav {
 
 
 .start-button {
-  display: block;
+  display: inline-block;
   color: white;
   background-color: green;
   padding: 1em;
