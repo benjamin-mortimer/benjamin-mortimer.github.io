@@ -8,19 +8,21 @@ body {
 
 @media (width: 400px) {
   .two-thirds {
-    width: 90%;
+    max-width: 90%;
   }
   .one-third {
-    width: 90%
+    max-width: 90%
   } 
 }
 
 @media (width: 600px) {    
   .two-thirds {
   width: 60%;
+  float: left;
   }
   .one-third {
-    width: 34%;
+  max-width: 34%;
+  float: right;
   }    
 }
 
