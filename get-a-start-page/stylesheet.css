@@ -38,4 +38,8 @@ nav {
   padding: 1em;
 }
 
+.start-button a :visited {
+   color: white;
+}
+
 
