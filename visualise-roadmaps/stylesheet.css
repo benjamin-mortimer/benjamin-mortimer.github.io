@@ -1,0 +1,17 @@
+body {
+  font-family: sans-serif;
+  margin: 50px;
+}
+
+.roadmap-item {
+  border: 2px solid black;
+  display: inline-block;
+  margin-top: 20px;
+  min-width: 100%;
+  padding: 10px 15px;
+}
+
+.roadmap-item:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
