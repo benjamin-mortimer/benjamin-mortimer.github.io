@@ -3,9 +3,24 @@ body {
   margin: 50px;
 }
 
+.roadmap-item, .roadmap-item-indicators, .roadmap-item-info  {
+  display: inline-block;
+}
+
+.roadmap-item-indicators {
+  float: right;
+  min-width: 30%;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.roadmap-item-info {
+  float: left;
+  min-width: 60%;
+}
+
 .roadmap-item {
   border: 2px solid black;
-  display: inline-block;
   margin-top: 20px;
   min-width: 100%;
   padding: 10px 15px;
