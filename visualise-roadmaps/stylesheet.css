@@ -3,8 +3,16 @@ body {
   margin: 50px;
 }
 
-.roadmap-item, .roadmap-item-indicators, .roadmap-item-info  {
+.roadmap-item, .roadmap-item-collapsed, .roadmap-item-extended, .roadmap-item-indicators, .roadmap-item-info  {
   display: inline-block;
+}
+
+.roadmap-item-collapsed, .roadmap-item-extended {
+  min-width: 100%;
+}
+
+.roadmap-item-extended {
+  display: none;
 }
 
 .roadmap-item-indicators {
