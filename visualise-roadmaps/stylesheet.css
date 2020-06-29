@@ -38,3 +38,8 @@ body {
   background-color: lightblue;
   cursor: pointer;
 }
+
+.show-hide-toggle {
+  color: blue;
+  text-decoration: underline;
+}
